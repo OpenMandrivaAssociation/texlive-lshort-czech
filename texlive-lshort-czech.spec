@@ -1,3 +1,9 @@
+# revision 23021
+# category Package
+# catalog-ctan /info/lshort/czech
+# catalog-date 2011-06-15 18:28:44 +0200
+# catalog-license gpl
+# catalog-version 4.27
 Name:		texlive-lshort-czech
 Version:	4.27
 Release:	1
@@ -44,6 +50,7 @@ LaTeX2e".
 %doc %{_texmfdistdir}/doc/latex/lshort-czech/src/things.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-czech/src/title.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-czech/src/typeset.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ LaTeX2e".
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

@@ -1,12 +1,12 @@
-# revision 23021
+# revision 29803
 # category Package
 # catalog-ctan /info/lshort/czech
-# catalog-date 2011-06-15 18:28:44 +0200
+# catalog-date 2012-07-16 17:38:59 +0200
 # catalog-license gpl
 # catalog-version 4.27
 Name:		texlive-lshort-czech
 Version:	4.27
-Release:	2
+Release:	3
 Summary:	Czech translation of the "Short Introduction to LaTeX2e"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/czech
@@ -58,17 +58,3 @@ LaTeX2e".
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.27-2
-+ Revision: 753464
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.27-1
-+ Revision: 718886
-- texlive-lshort-czech
-- texlive-lshort-czech
-- texlive-lshort-czech
-- texlive-lshort-czech
-

@@ -6,7 +6,7 @@
 # catalog-version 4.27
 Name:		texlive-lshort-czech
 Version:	4.27
-Release:	3
+Release:	4
 Summary:	Czech translation of the "Short Introduction to LaTeX2e"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/czech

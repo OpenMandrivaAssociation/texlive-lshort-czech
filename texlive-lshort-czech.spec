@@ -1,18 +1,12 @@
-# revision 29803
-# category Package
-# catalog-ctan /info/lshort/czech
-# catalog-date 2012-07-16 17:38:59 +0200
-# catalog-license gpl
-# catalog-version 4.27
 Name:		texlive-lshort-czech
-Version:	4.27
-Release:	12
+Version:	55643
+Release:	1
 Summary:	Czech translation of the "Short Introduction to LaTeX2e"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/czech
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -51,7 +45,7 @@ LaTeX2e".
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 

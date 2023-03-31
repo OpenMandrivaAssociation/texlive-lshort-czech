@@ -1,6 +1,6 @@
 Name:		texlive-lshort-czech
 Version:	55643
-Release:	1
+Release:	2
 Summary:	Czech translation of the "Short Introduction to LaTeX2e"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/czech

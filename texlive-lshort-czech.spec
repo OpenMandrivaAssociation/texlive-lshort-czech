@@ -3,7 +3,7 @@ Version:	55643
 Release:	2
 Summary:	Czech translation of the "Short Introduction to LaTeX2e"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/czech
+URL:		https://www.ctan.org/tex-archive/info/lshort/czech
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-czech.doc.r%{version}.tar.xz
